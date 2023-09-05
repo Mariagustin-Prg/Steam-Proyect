@@ -5,3 +5,5 @@ fastapi
 scikit-learn
 ipykernel
 uvicorn
+pyarrow
+fastparquet
