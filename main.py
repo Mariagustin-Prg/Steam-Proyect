@@ -6,7 +6,7 @@ app = FastAPI()
 
 games  = pd.read_csv("./data/csv/games_steam.csv")
 reviews =  pd.read_csv("./data/csv/user_review.csv")
-items = pd.read_csv("./data/csv/df_items.csv")
+items = pd.read_parquet("./data/csv/df_items_2.parquet")
 
 @app.get("/")
 def init():
